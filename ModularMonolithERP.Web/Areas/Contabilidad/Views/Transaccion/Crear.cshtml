@@ -1,0 +1,79 @@
+﻿
+@model TransaccionViewModel
+
+@{
+    ViewData["Title"] = "Crear Transacción"; 
+}
+
+<link rel="stylesheet" href="~/css/crearTransaccion.css" />
+
+<div id="crearDiv">
+    <h1 class="text-center">Crear Transacción</h1>
+
+    @using (Html.BeginForm("Crear", "Transaccion", FormMethod.Post, new { @style = "margin-top: 4%; margin-bottom: 4% " }))
+    {
+        <div asp-validation-summary="ModelOnly"></div>
+        <div class="container">
+            <div class="col-lg-2">
+                @Html.LabelFor(model => model.TipoTransaccion)
+                @Html.DropDownList("TipoTransaccion", Html.GetEnumSelectList<TipoTransaccionEnum>(), "Seleccionar Tipo de Transacción", new { @class = "form-control", @onchange = "showOptions()" })
+                @Html.ValidationMessageFor(model => model.TipoTransaccion, "", new { @class = "text-danger" })
+            </div>
+
+            <div class="col-lg-2">
+                @Html.LabelFor(model => model.Concepto)
+                @Html.TextBoxFor(model => model.Concepto, "", new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.Concepto, "", new { @class = "text-danger" })
+            </div>
+
+            <!-- OPCIONES -->
+
+            <div class="col-lg-4" id="tipoIngreso" style="display: none;">
+                @Html.LabelFor(model => model.TipoIngreso)
+                @Html.DropDownList("TipoIngreso", Html.GetEnumSelectList<TipoIngresoEnum>(), "Seleccionar Tipo de Ingreso", new { @class = "form-control" })
+            </div>
+
+            <div class="col-lg-4" id="tipoGasto" style="display: none;">
+                @Html.LabelFor(model => model.TipoGasto)
+                @Html.DropDownList("TipoGasto", Html.GetEnumSelectList<TipoGastoEnum>(), "Seleccionar Tipo de Gasto", new { @class = "form-control" })
+            </div>
+
+            <div class="col-lg-2">
+                @Html.LabelFor(model => model.Importe)
+                @Html.TextBoxFor(model => model.Importe, "", new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.Importe, "", new { @class = "text-danger" })
+            </div>
+
+            <div class="col-lg-2">
+                @Html.LabelFor(model => model.FechaTransaccion)
+                @Html.TextBoxFor(model => model.FechaTransaccion, "{0:yyyy-MM-dd}", new { @class = "form-control", @type = "date" })
+                @Html.ValidationMessageFor(model => model.FechaTransaccion, "", new { @class = "text-danger" })
+            </div>
+
+            <div id="btnCrear">
+                <button class="btn btn-primary" type="submit">Enviar</button>
+            </div>
+        </div>
+    }
+</div>
+
+    <script>
+        function showOptions() {
+            var tipoTransaccion = document.getElementById("TipoTransaccion").value;
+
+            if (tipoTransaccion === '1') {
+                document.getElementById("tipoIngreso").style.display = 'block';
+                document.getElementById("tipoGasto").style.display = 'none';
+            } else if (tipoTransaccion === '2') {
+                document.getElementById("tipoIngreso").style.display = 'none';
+                document.getElementById("tipoGasto").style.display = 'block';
+            } else {
+                document.getElementById("tipoIngreso").style.display = 'none';
+                document.getElementById("tipoGasto").style.display = 'none';
+            }
+        }
+
+        window.onload = function () {
+            showOptions();
+        };
+    </script>

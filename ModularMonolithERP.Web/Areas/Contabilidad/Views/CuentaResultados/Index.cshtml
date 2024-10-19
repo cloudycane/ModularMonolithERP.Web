@@ -1,0 +1,150 @@
+﻿
+@{
+    ViewData["Title"] = "Cuenta Resultados";
+    
+}
+
+<link rel="stylesheet" href="~/css/cuentaResultados.css" asp-append-version="true" />
+
+<div id="welcomeGLPage" class="container">
+    <div class="col-sm-4 text-center" style="float: left;">
+        <a class="btn btn-primary" asp-action="Index" asp-controller="Transaccion" asp-area="Contabilidad">Transacciones</a>
+    </div>
+
+    <div class="col-sm-4 text-center" style="float: right;">
+        <a class="btn btn-primary" asp-action="Crear" asp-controller="Transaccion" asp-area="Contabilidad">Crear Transacción</a>
+    </div>
+    
+    <br />
+    <hr />
+
+    <div id="overviewDiv">
+        <div class="col-lg-4">
+            <h2 class="text-center">Ingresos</h2>
+            <h3 class="text-success text-center"><strong>€ @ViewBag.Ingreso</strong></h3>
+        </div>
+        <div class="col-lg-4">
+            <h2 class="text-center">Gastos</h2>
+            <h3 class="text-danger text-center"><strong>€ @ViewBag.Gasto</strong></h3>
+        </div>
+        <div class="col-lg-4">
+            <h2 class="text-center">Resultado (Ejercicio)</h2>
+            <h3 class="text-info text-center"><strong>€ 0.00 </strong></h3>
+        </div>
+    </div>
+
+    <div id="cardsDiv" class="col-lg-12">
+        <div class="col-lg-3 text-center" id="card">
+            <h5>Ventas Netas</h5>
+            <h3 class="text-success">0.00 €</h3>
+            <a class="btn-sm btn-info" style="float: right;"><i class="bi bi-three-dots"></i></a>
+        </div>
+        <div class="col-lg-3 text-center" id="card">
+            <h5>Otros Ingresos</h5>
+            <h3 class="text-success">0.00 €</h3>
+            <a class="btn-sm btn-info" style="float: right;"><i class="bi bi-three-dots"></i></a>
+        </div>
+        <div class="col-lg-3 text-center" id="card">
+            <h5>Ingresos Netos</h5>
+            <h3 class="text-success">0.00 €</h3>
+            <a class="btn-sm btn-info" style="float: right;"><i class="bi bi-three-dots"></i></a>
+        </div>
+        <div class="col-lg-3 text-center" id="card">
+            <h5>Gastos Producción</h5>
+            <h3 class="text-danger">0.00 €</h3>
+            <a class="btn-sm btn-info" style="float: right;"><i class="bi bi-three-dots"></i></a>
+        </div>
+        <div class="col-lg-3 text-center" id="card">
+            <h5>Margen Bruto</h5>
+            <h3 class="text-danger">0.00 €</h3>
+            <a class="btn-sm btn-info" style="float: right;"><i class="bi bi-three-dots"></i></a>
+        </div>
+        <div class="col-lg-3 text-center" id="card">
+            <h5>Gastos de Comercialización</h5>
+            <h3 class="text-danger">0.00 €</h3>
+            <a class="btn-sm btn-info" style="float: right;"><i class="bi bi-three-dots"></i></a>
+
+        </div>
+        <div class="col-lg-3 text-center" id="card">
+            <h5>Margen Comercial</h5>
+            <h3 class="text-success">0.00 €</h3>
+            <a class="btn-sm btn-info" style="float: right;"><i class="bi bi-three-dots"></i></a>
+        </div>
+        <div class="col-lg-3 text-center" id="card">
+            <h5>Gastos de Administración</h5>
+            <h3 class="text-danger">0.00 €</h3>
+            <a class="btn-sm btn-info" style="float: right;"><i class="bi bi-three-dots"></i></a>
+        </div>
+        <div class="col-lg-3 text-center" id="card">
+            <h5>Gastos Generales</h5>
+            <h3 class="text-danger">0.00 €</h3>
+            <a class="btn-sm btn-info" style="float: right;"><i class="bi bi-three-dots"></i></a>
+        </div>
+        <div class="col-lg-3 text-center" id="card">
+            <h5>Otros Resultados</h5>
+            <h3 class="text-success">0.00 €</h3>
+            <a class="btn-sm btn-info" style="float: right;"><i class="bi bi-three-dots"></i></a>
+        </div>
+        <div class="col-lg-3 text-center" id="card">
+            <h6>Beneficios antes de Intereses e Impuestos</h6>
+            <h3 class="text-success">0.00 €</h3>
+            <a class="btn-sm btn-info" style="float: right;"><i class="bi bi-three-dots"></i></a>
+        </div>
+        <div class="col-lg-3 text-center" id="card">
+            <h5>Amortizaciones</h5>
+            <h3 class="text-danger">0.00 €</h3>
+            <a class="btn-sm btn-info" style="float: right;"><i class="bi bi-three-dots"></i></a>
+        </div>
+        <div class="col-lg-3 text-center" id="card">
+            <h5>Ingresos Financieros</h5>
+            <h3 class="text-success">0.00 €</h3>
+            <a class="btn-sm btn-info" style="float: right;"><i class="bi bi-three-dots"></i></a>
+        </div>
+        <div class="col-lg-3 text-center" id="card">
+            <h5>Gastos Financieros</h5>
+            <h3 class="text-danger">0.00 €</h3>
+            <a class="btn-sm btn-info" style="float: right;"><i class="bi bi-three-dots"></i></a>
+        </div>
+        <div class="col-lg-3 text-center" id="card">
+            <h5>Diferencias de Cambio</h5>
+            <h3 class="text-success">0.00 €</h3>
+            <a class="btn-sm btn-info" style="float: right;"><i class="bi bi-three-dots"></i></a>
+        </div>
+        <div class="col-lg-3 text-center" id="card">
+            <h5>Beneficios en Inversiones Financieras</h5>
+            <h3 class="text-success">0.00 €</h3>
+            <a class="btn-sm btn-info" style="float: right;"><i class="bi bi-three-dots"></i></a>
+        </div>
+        <div class="col-lg-3 text-center" id="card">
+            <h5>Resultados Financieros</h5>
+            <h3 class="text-success">0.00 €</h3>
+            <a class="btn-sm btn-info" style="float: right;"><i class="bi bi-three-dots"></i></a>
+        </div>
+        <div class="col-lg-3 text-center" id="card">
+            <h5>Participaciones en Beneficios Filiales</h5>
+            <h3 class="text-success">0.00 €</h3>
+            <a class="btn-sm btn-info" style="float: right;"><i class="bi bi-three-dots"></i></a>
+        </div>
+        <div class="col-lg-3 text-center" id="card">
+            <h5>Resultado Ordinario</h5>
+            <h3 class="text-success">0.00 €</h3>
+            <a class="btn-sm btn-info" style="float: right;"><i class="bi bi-three-dots"></i></a>
+        </div>
+        <div class="col-lg-3 text-center" id="card">
+            <h6>Resultado de Operaciones Discontinuadas</h6>
+            <h3 class="text-success">0.00 €</h3>
+            <a class="btn-sm btn-info" style="float: right;"><i class="bi bi-three-dots"></i></a>
+        </div>
+        <div class="col-lg-3 text-center" id="card">
+            <h5>Benificios antes de Impuestos (BAI)</h5>
+            <h3 class="text-success">0.00 €</h3>
+            <a class="btn-sm btn-info" style="float: right;"><i class="bi bi-three-dots"></i></a>
+        </div>
+        <div class="col-lg-3 text-center" id="card">
+            <h5>Impuesto de Beneficios</h5>
+            <h3 class="text-success">0.00 €</h3>
+            <a class="btn-sm btn-info" style="float: right;"><i class="bi bi-three-dots"></i></a>
+        </div>
+
+    </div>
+</div>

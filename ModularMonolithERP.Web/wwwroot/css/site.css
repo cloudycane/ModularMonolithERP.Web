@@ -1,0 +1,12 @@
+#sidebar{
+    position: fixed;
+    margin-top: 3%;
+}
+main{
+    margin-top: 3%;
+}
+@media (max-width: 768px) {
+    #renderBody {
+        margin-top: 15%;
+    }
+}

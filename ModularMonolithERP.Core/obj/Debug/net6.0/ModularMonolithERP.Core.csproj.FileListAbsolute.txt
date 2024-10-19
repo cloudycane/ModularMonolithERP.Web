@@ -1,0 +1,11 @@
+C:\Users\gesel\source\repos\ModularMonolithERP.Web\ModularMonolithERP.Core\bin\Debug\net6.0\ModularMonolithERP.Core.deps.json
+C:\Users\gesel\source\repos\ModularMonolithERP.Web\ModularMonolithERP.Core\bin\Debug\net6.0\ModularMonolithERP.Core.dll
+C:\Users\gesel\source\repos\ModularMonolithERP.Web\ModularMonolithERP.Core\bin\Debug\net6.0\ModularMonolithERP.Core.pdb
+C:\Users\gesel\source\repos\ModularMonolithERP.Web\ModularMonolithERP.Core\obj\Debug\net6.0\ModularMonolithERP.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gesel\source\repos\ModularMonolithERP.Web\ModularMonolithERP.Core\obj\Debug\net6.0\ModularMonolithERP.Core.AssemblyInfoInputs.cache
+C:\Users\gesel\source\repos\ModularMonolithERP.Web\ModularMonolithERP.Core\obj\Debug\net6.0\ModularMonolithERP.Core.AssemblyInfo.cs
+C:\Users\gesel\source\repos\ModularMonolithERP.Web\ModularMonolithERP.Core\obj\Debug\net6.0\ModularMonolithERP.Core.csproj.CoreCompileInputs.cache
+C:\Users\gesel\source\repos\ModularMonolithERP.Web\ModularMonolithERP.Core\obj\Debug\net6.0\ModularMonolithERP.Core.dll
+C:\Users\gesel\source\repos\ModularMonolithERP.Web\ModularMonolithERP.Core\obj\Debug\net6.0\refint\ModularMonolithERP.Core.dll
+C:\Users\gesel\source\repos\ModularMonolithERP.Web\ModularMonolithERP.Core\obj\Debug\net6.0\ModularMonolithERP.Core.pdb
+C:\Users\gesel\source\repos\ModularMonolithERP.Web\ModularMonolithERP.Core\obj\Debug\net6.0\ref\ModularMonolithERP.Core.dll

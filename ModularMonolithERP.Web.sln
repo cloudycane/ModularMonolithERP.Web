@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModularMonolithERP.Web", "ModularMonolithERP.Web\ModularMonolithERP.Web.csproj", "{260F4489-4146-4B48-A61E-26651CD19A97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModularMonolithERP.Core", "ModularMonolithERP.Core\ModularMonolithERP.Core.csproj", "{31646D98-E58B-4CD0-AB85-E61C65E04A4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModularMonolithERP.Application", "ModularMonolithERP.Application\ModularMonolithERP.Application.csproj", "{EF7C7A1A-72F4-49CE-8C9A-2B1ED2315E78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModularMonolithERP.Infrastructure", "ModularMonolithERP.Infrastructure\ModularMonolithERP.Infrastructure.csproj", "{74C5AABB-36B8-4464-A57C-A449D01C9308}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{260F4489-4146-4B48-A61E-26651CD19A97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{260F4489-4146-4B48-A61E-26651CD19A97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{260F4489-4146-4B48-A61E-26651CD19A97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{260F4489-4146-4B48-A61E-26651CD19A97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31646D98-E58B-4CD0-AB85-E61C65E04A4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31646D98-E58B-4CD0-AB85-E61C65E04A4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31646D98-E58B-4CD0-AB85-E61C65E04A4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31646D98-E58B-4CD0-AB85-E61C65E04A4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF7C7A1A-72F4-49CE-8C9A-2B1ED2315E78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF7C7A1A-72F4-49CE-8C9A-2B1ED2315E78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF7C7A1A-72F4-49CE-8C9A-2B1ED2315E78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF7C7A1A-72F4-49CE-8C9A-2B1ED2315E78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74C5AABB-36B8-4464-A57C-A449D01C9308}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74C5AABB-36B8-4464-A57C-A449D01C9308}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74C5AABB-36B8-4464-A57C-A449D01C9308}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74C5AABB-36B8-4464-A57C-A449D01C9308}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {31F35436-EFD1-4358-A15B-53E128B5D7A1}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\ModularMonolithERP.Web.props" />
+</Project>

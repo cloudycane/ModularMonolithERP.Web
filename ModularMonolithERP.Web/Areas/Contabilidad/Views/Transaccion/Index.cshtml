@@ -1,0 +1,52 @@
+﻿
+@model ListadoTransaccionViewModel
+
+@{
+    ViewData["Title"] = "Transacciones";
+}
+<link rel="stylesheet" href="~/css/indexTransaccion.css" />
+<div id="indexDiv">
+    <h1>Listado de Transacciones</h1>
+    <hr />
+
+    <div>
+        <table class="table-bordered">
+            <thead>
+                <tr>
+                    <th class="col-sm-2">Tipo de Transacción</th>
+                    <th class="col-sm-2">Tipo</th>
+                    <th class="col-sm-2">Concepto</th>
+                    <th class="col-sm-2">Importe</th>
+                    <th class="col-sm-2">Fecha de Transacción</th>
+                    <th class="col-sm-2">Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var transaccion in Model.Transacciones)
+                {
+                    <tr>
+                        @if(transaccion.TipoTransaccion.ToString() == "Ingreso")
+                        {
+                            <td class="col-sm-2 text-success"><strong>@transaccion.TipoTransaccion</strong></td>
+                            <td class="col-sm-2 text-success">@transaccion.TipoIngreso</td>
+                        }
+                        @if (transaccion.TipoTransaccion.ToString() == "Gasto")
+                        {
+                            <td class="col-sm-2 text-danger"><strong>@transaccion.TipoTransaccion</strong></td>
+                            <td class="col-sm-2 text-danger">@transaccion.TipoGasto</td>
+                        }
+                        <td class="col-sm-2">@transaccion.Concepto</td>
+                        <td class="col-sm-2">@transaccion.Importe</td>
+                        <td class="col-sm-2">@transaccion.FechaTransaccion.ToString("d")</td>
+                        <td class="col-sm-2">
+                            <a class="btn btn-info" style="margin: 2%"><i class="bi bi-info-circle"></i></a>
+                            <a class="btn btn-warning" style="margin: 2%"><i class="bi bi-pencil"></i></a>
+                            <a class="btn btn-danger" style="margin: 2%"><i class="bi bi-trash"></i></a>
+
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

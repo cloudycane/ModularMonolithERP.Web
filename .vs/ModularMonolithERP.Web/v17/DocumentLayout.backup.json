@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\gesel\\source\\repos\\ModularMonolithERP.Web\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{260F4489-4146-4B48-A61E-26651CD19A97}|ModularMonolithERP.Web\\ModularMonolithERP.Web.csproj|c:\\users\\gesel\\source\\repos\\modularmonolitherp.web\\modularmonolitherp.web\\areas\\contabilidad\\views\\cuentaresultados\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{260F4489-4146-4B48-A61E-26651CD19A97}|ModularMonolithERP.Web\\ModularMonolithERP.Web.csproj|solutionrelative:modularmonolitherp.web\\areas\\contabilidad\\views\\cuentaresultados\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260F4489-4146-4B48-A61E-26651CD19A97}|ModularMonolithERP.Web\\ModularMonolithERP.Web.csproj|c:\\users\\gesel\\source\\repos\\modularmonolitherp.web\\modularmonolitherp.web\\areas\\contabilidad\\views\\balancegeneral\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{260F4489-4146-4B48-A61E-26651CD19A97}|ModularMonolithERP.Web\\ModularMonolithERP.Web.csproj|solutionrelative:modularmonolitherp.web\\areas\\contabilidad\\views\\balancegeneral\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\gesel\\source\\repos\\ModularMonolithERP.Web\\ModularMonolithERP.Web\\Areas\\Contabilidad\\Views\\BalanceGeneral\\Index.cshtml",
+              "RelativeDocumentMoniker": "ModularMonolithERP.Web\\Areas\\Contabilidad\\Views\\BalanceGeneral\\Index.cshtml",
+              "ToolTip": "C:\\Users\\gesel\\source\\repos\\ModularMonolithERP.Web\\ModularMonolithERP.Web\\Areas\\Contabilidad\\Views\\BalanceGeneral\\Index.cshtml",
+              "RelativeToolTip": "ModularMonolithERP.Web\\Areas\\Contabilidad\\Views\\BalanceGeneral\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-19T19:15:23.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\gesel\\source\\repos\\ModularMonolithERP.Web\\ModularMonolithERP.Web\\Areas\\Contabilidad\\Views\\CuentaResultados\\Index.cshtml",
+              "RelativeDocumentMoniker": "ModularMonolithERP.Web\\Areas\\Contabilidad\\Views\\CuentaResultados\\Index.cshtml",
+              "ToolTip": "C:\\Users\\gesel\\source\\repos\\ModularMonolithERP.Web\\ModularMonolithERP.Web\\Areas\\Contabilidad\\Views\\CuentaResultados\\Index.cshtml",
+              "RelativeToolTip": "ModularMonolithERP.Web\\Areas\\Contabilidad\\Views\\CuentaResultados\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABpAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-18T12:57:38.102Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
