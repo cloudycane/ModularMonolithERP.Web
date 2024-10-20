@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\ModularMonolithERP.Web.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\gesel\\source\\repos\\ModularMonolithERP.Web\\ModularMonolithERP.Web\\wwwroot\\css\\balanceGeneral.css",
+      "PackagePath": "staticwebassets\\css\\balanceGeneral.css"
+    },
+    {
       "Id": "C:\\Users\\gesel\\source\\repos\\ModularMonolithERP.Web\\ModularMonolithERP.Web\\wwwroot\\css\\crearTransaccion.css",
       "PackagePath": "staticwebassets\\css\\crearTransaccion.css"
     },

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ModularMonolithERP.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ac6cb660a957b2ebba2e66bf741e8526151d461c")]
 [assembly: System.Reflection.AssemblyProductAttribute("ModularMonolithERP.Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ModularMonolithERP.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
