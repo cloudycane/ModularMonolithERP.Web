@@ -35,3 +35,15 @@
 i{
     font-size: 10px;
 }
+
+@media (max-width: 820px) {
+    #welcomeGLPage {
+        margin-top: 15%;
+    }
+}
+
+@media (max-width: 1280px) {
+    #welcomeGLPage {
+        margin-top: 10%;
+    }
+}

@@ -1,3 +1,4 @@
+
 #sidebar{
     position: fixed;
     margin-top: 3%;
@@ -25,4 +26,17 @@ span{
 img{
     width: 480px;
     height: 250px;
+}
+
+@media (max-width: 768px) {
+    #sidebar{
+        margin-top: 13%;
+    }
+
+}
+
+@media (max-width: 820px) {
+    #sidebar {
+        margin-top: 13%;
+    }
 }

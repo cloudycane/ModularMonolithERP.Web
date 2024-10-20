@@ -55,8 +55,8 @@ namespace ModularMonolithERP.Infrastructure.Migrations
                     b.Property<decimal>("DeudaActual")
                         .HasColumnType("decimal(18,2)");
 
-                    b.Property<DateTime>("DiasEntrega")
-                        .HasColumnType("datetime2");
+                    b.Property<int>("DiasEntrega")
+                        .HasColumnType("int");
 
                     b.Property<string>("DireccionFiscal")
                         .HasColumnType("nvarchar(max)");
@@ -124,7 +124,7 @@ namespace ModularMonolithERP.Infrastructure.Migrations
                     b.Property<string>("TelefonoContacto")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("TipoTransaccion")
+                    b.Property<int>("TipoProveedor")
                         .HasColumnType("int");
 
                     b.Property<string>("UnidadMedida")

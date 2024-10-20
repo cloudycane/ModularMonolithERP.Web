@@ -11,7 +11,7 @@ namespace ModularMonolithERP.Core.Entidades
     {
         public Guid Id { get; set; }
         public string RazonSocial { get; set; }
-        public TipoTransaccionEnum TipoTransaccion { get; set; }
+        public TipoProveedorEnum TipoProveedor { get; set; }
         public string CIF { get; set; }
         public DateTime FechaRegistro { get; set; }
         // Cambiar esto por enum 
@@ -27,9 +27,9 @@ namespace ModularMonolithERP.Core.Entidades
         // Cambiar esto por enum 
         public CondicionesPagoEnum CondicionesPago { get; set; }
         // Cambiar esto por enum 
-        public CondicionesPagoEnum FormasPago { get; set; }
+        public FormasPagoEnum FormasPago { get; set; }
         public string Descuentos {  get; set; }
-        public DateTime DiasEntrega { get; set; }
+        public int DiasEntrega { get; set; }
         public decimal GastosEnvio { get; set; }
         // Nav Property CatalogoProductos de Proveedor o Suministrador
         public decimal PrecioProducto { get; set; }

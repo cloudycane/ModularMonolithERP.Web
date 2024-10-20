@@ -1,11 +1,21 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using ModularMonolithERP.Core.Entidades;
+using ModularMonolithERP.Core.Interfaces;
+using ModularMonolithERP.Web.ViewModels;
+using ModularMonolithERP.Core.Enums;
 
 namespace ModularMonolithERP.Web.Areas.Adquisicion.Controllers
 {
     [Area("Adquisicion")]
     public class PortalSuministradorController : Controller
     {
+        private readonly ISuministradorRepositorio _suministradorRepositorio; 
+
+        public PortalSuministradorController(ISuministradorRepositorio suministradorRepositorio)
+        {
+            _suministradorRepositorio = suministradorRepositorio;
+        }
         // GET: PortalSuministradorController
         public ActionResult Index()
         {
@@ -19,7 +29,7 @@ namespace ModularMonolithERP.Web.Areas.Adquisicion.Controllers
         }
 
         // GET: PortalSuministradorController/Create
-        public ActionResult Create()
+        public ActionResult Crear()
         {
             return View();
         }
@@ -27,16 +37,51 @@ namespace ModularMonolithERP.Web.Areas.Adquisicion.Controllers
         // POST: PortalSuministradorController/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create(IFormCollection collection)
+        public async Task<IActionResult> Crear(SuministradorViewModel viewModel)
         {
-            try
+            if(ModelState.IsValid)
             {
-                return RedirectToAction(nameof(Index));
+                var suministrador = new SuministradorModel()
+                {
+                    CapacidadProduccion = viewModel.CapacidadProduccion, 
+                    CategoriaProveedor = viewModel.CategoriaProveedor, 
+                    CertificacionesLegales = viewModel.CertificacionesLegales,
+                    CIF = viewModel.CIF, 
+                    CondicionesPago = viewModel.CondicionesPago,
+                    ContratoVigente = viewModel.ContratoVigente,
+                    CostosLogisticos = viewModel.CostosLogisticos,
+                    Descuentos = viewModel.Descuentos,
+                    DeudaActual = viewModel.DeudaActual,
+                    DiasEntrega = viewModel.DiasEntrega, 
+                    DireccionFiscal = viewModel.DireccionFiscal,
+                    DocumentosLegales = viewModel.DocumentosLegales,
+                    PoliticasDevolucion = viewModel.PoliticasDevolucion,
+                    EmailContacto = viewModel.EmailContacto,
+                    FechaRegistro = viewModel.FechaRegistro,
+                    FechaUltimaAuditoria = viewModel.FechaUltimaAuditoria,
+                    FormasPago = viewModel.FormasPago,
+                    FrecuenciaCompra = viewModel.FrecuenciaCompra, 
+                    GastosEnvio = viewModel.GastosEnvio,
+                    HorarioAtencion = viewModel.HorarioAtencion,
+                    MetodosTransporte = viewModel.MetodosTransporte,
+                    MonedaPreferida = viewModel.MonedaPreferida,
+                    PaisOrigen = viewModel.PaisOrigen, 
+                    PersonaContacto = viewModel.PersonaContacto, 
+                    PlazosEntrega = viewModel.PlazosEntrega, 
+                    PrecioProducto = viewModel.PrecioProducto,
+                    RazonSocial = viewModel.RazonSocial, 
+                    RequisitosRegulatorios = viewModel.RequisitosRegulatorios,
+                    RiesgoProveedor = viewModel.RiesgoProveedor, 
+                    SitioWeb = viewModel.SitioWeb, 
+                    StockMinimo = viewModel.StockMinimo,
+                    TelefonoContacto = viewModel.TelefonoContacto,
+                    TipoProveedor = viewModel.TipoProveedor, 
+                    UnidadMedida = viewModel.UnidadMedida
+                };
+                await _suministradorRepositorio.CrearSuministrador(suministrador);
+                return RedirectToAction("Index");
             }
-            catch
-            {
-                return View();
-            }
+            return View(viewModel);
         }
 
         // GET: PortalSuministradorController/Edit/5
