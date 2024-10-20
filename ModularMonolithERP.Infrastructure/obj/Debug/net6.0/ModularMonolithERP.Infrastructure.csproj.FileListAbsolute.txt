@@ -17,3 +17,4 @@ C:\Users\gesel\source\repos\ModularMonolithERP.Web\ModularMonolithERP.Infrastruc
 C:\Users\gesel\source\repos\ModularMonolithERP.Web\ModularMonolithERP.Infrastructure\obj\Debug\net6.0\ref\ModularMonolithERP.Infrastructure.dll
 C:\Users\gesel\source\repos\ModularMonolithERP.Web\ModularMonolithERP.Infrastructure\bin\Debug\net6.0\ModularMonolithERP.Infrastructure.runtimeconfig.json
 C:\Users\gesel\source\repos\ModularMonolithERP.Web\ModularMonolithERP.Infrastructure\obj\Debug\net6.0\ModularMonolithERP.Infrastructure.genruntimeconfig.cache
+C:\Users\gesel\source\repos\ModularMonolithERP.Web\ModularMonolithERP.Infrastructure\obj\Debug\net6.0\ModularMonolithERP.Infrastructure.sourcelink.json

@@ -22,6 +22,119 @@ namespace ModularMonolithERP.Infrastructure.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
+            modelBuilder.Entity("ModularMonolithERP.Core.Entidades.SuministradorModel", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("CIF")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("CapacidadProduccion")
+                        .HasColumnType("int");
+
+                    b.Property<int>("CategoriaProveedor")
+                        .HasColumnType("int");
+
+                    b.Property<string>("CertificacionesLegales")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("CondicionesPago")
+                        .HasColumnType("int");
+
+                    b.Property<string>("ContratoVigente")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<decimal>("CostosLogisticos")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<string>("Descuentos")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<decimal>("DeudaActual")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<DateTime>("DiasEntrega")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("DireccionFiscal")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("DocumentosLegales")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("EmailContacto")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("FechaRegistro")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("FechaUltimaAuditoria")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("FormasPago")
+                        .HasColumnType("int");
+
+                    b.Property<int>("FrecuenciaCompra")
+                        .HasColumnType("int");
+
+                    b.Property<decimal>("GastosEnvio")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<DateTime>("HorarioAtencion")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("MetodosTransporte")
+                        .HasColumnType("int");
+
+                    b.Property<int>("MonedaPreferida")
+                        .HasColumnType("int");
+
+                    b.Property<int>("PaisOrigen")
+                        .HasColumnType("int");
+
+                    b.Property<string>("PersonaContacto")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("PlazosEntrega")
+                        .HasColumnType("int");
+
+                    b.Property<string>("PoliticasDevolucion")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<decimal>("PrecioProducto")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<string>("RazonSocial")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("RequisitosRegulatorios")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("RiesgoProveedor")
+                        .HasColumnType("int");
+
+                    b.Property<string>("SitioWeb")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("StockMinimo")
+                        .HasColumnType("int");
+
+                    b.Property<string>("TelefonoContacto")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("TipoTransaccion")
+                        .HasColumnType("int");
+
+                    b.Property<string>("UnidadMedida")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Suministradores");
+                });
+
             modelBuilder.Entity("ModularMonolithERP.Core.Entidades.TransaccionModel", b =>
                 {
                     b.Property<Guid>("Id")

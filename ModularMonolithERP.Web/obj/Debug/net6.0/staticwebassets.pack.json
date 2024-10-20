@@ -21,6 +21,10 @@
       "PackagePath": "staticwebassets\\css\\indexTransaccion.css"
     },
     {
+      "Id": "C:\\Users\\gesel\\source\\repos\\ModularMonolithERP.Web\\ModularMonolithERP.Web\\wwwroot\\css\\portalSuministrador.css",
+      "PackagePath": "staticwebassets\\css\\portalSuministrador.css"
+    },
+    {
       "Id": "C:\\Users\\gesel\\source\\repos\\ModularMonolithERP.Web\\ModularMonolithERP.Web\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

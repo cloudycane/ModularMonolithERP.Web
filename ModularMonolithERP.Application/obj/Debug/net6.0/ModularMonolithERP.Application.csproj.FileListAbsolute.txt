@@ -13,3 +13,4 @@ C:\Users\gesel\source\repos\ModularMonolithERP.Web\ModularMonolithERP.Applicatio
 C:\Users\gesel\source\repos\ModularMonolithERP.Web\ModularMonolithERP.Application\obj\Debug\net6.0\refint\ModularMonolithERP.Application.dll
 C:\Users\gesel\source\repos\ModularMonolithERP.Web\ModularMonolithERP.Application\obj\Debug\net6.0\ModularMonolithERP.Application.pdb
 C:\Users\gesel\source\repos\ModularMonolithERP.Web\ModularMonolithERP.Application\obj\Debug\net6.0\ref\ModularMonolithERP.Application.dll
+C:\Users\gesel\source\repos\ModularMonolithERP.Web\ModularMonolithERP.Application\obj\Debug\net6.0\ModularMonolithERP.Application.sourcelink.json

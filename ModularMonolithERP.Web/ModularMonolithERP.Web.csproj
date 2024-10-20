@@ -9,13 +9,19 @@
   <ItemGroup>
     <Folder Include="Areas\Adquisicion\Views\GestionDePedidos\" />
     <Folder Include="Areas\Adquisicion\Views\Facturacion\" />
+    <Folder Include="Areas\Adquisicion\Views\Requerimiento\" />
     <Folder Include="Areas\Adquisicion\Views\Pagos\" />
     <Folder Include="Areas\Adquisicion\Views\Sourcing\" />
-    <Folder Include="Areas\Adquisicion\Views\PortalSuministrador\" />
     <Folder Include="Areas\Adquisicion\Views\Procurar\" />
     <Folder Include="Areas\Inventario\Controllers\" />
-    <Folder Include="Areas\Inventario\Views\" />
+    <Folder Include="Areas\Inventario\Views\MateriaPrima\" />
+    <Folder Include="Areas\Inventario\Views\InventarioConsignado\" />
+    <Folder Include="Areas\Inventario\Views\RepuestosInventario\" />
+    <Folder Include="Areas\Inventario\Views\ServiciosInventario\" />
+    <Folder Include="Areas\Inventario\Views\PropiedadesDeEmpresa\" />
+    <Folder Include="Areas\Inventario\Views\ProductosTerminados\" />
     <Folder Include="Areas\Produccion\Controllers\" />
+    <Folder Include="Areas\Produccion\Views\ProductosEnProceso\" />
     <Folder Include="Areas\Produccion\Views\" />
     <Folder Include="Areas\RecursoHumano\Controllers\" />
     <Folder Include="Areas\RecursoHumano\Views\" />

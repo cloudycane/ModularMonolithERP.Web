@@ -10,3 +10,19 @@ main{
         margin-top: 15%;
     }
 }
+nav{
+    background-color: #8cb456;
+}
+span{
+    background-color: white;
+}
+#titleERP{
+    color: white;
+}
+#navList{
+    color: black;
+}
+img{
+    width: 480px;
+    height: 250px;
+}

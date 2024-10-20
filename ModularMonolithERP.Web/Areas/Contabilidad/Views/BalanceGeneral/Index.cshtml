@@ -6,11 +6,11 @@
     <div>
         <div class="col-lg-4">
             <h2 class="text-center">Activos</h2>
-            <h3 class="text-success text-center"><strong>€ @ViewBag.Ingreso</strong></h3>
+            <h3 class="text-success text-center"><strong>€0.00 </strong></h3>
         </div>
         <div class="col-lg-4">
             <h2 class="text-center">Pasivos</h2>
-            <h3 class="text-danger text-center"><strong>€ @ViewBag.Gasto</strong></h3>
+            <h3 class="text-danger text-center"><strong>€0.00</strong></h3>
         </div>
         <div class="col-lg-4">
             <h2 class="text-center">Patrimonio Neto</h2>
@@ -62,14 +62,41 @@
                     </tr>
                 </tbody>
             </table>
-            
-            
+            <a class="btn-sm btn-info" style="float: right;"><i class="bi bi-three-dots"></i></a>
         </div>
         <div class="col-lg-4 text-center" id="card">
-            <h3>Pasivos</h3>
+
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th class="col-2">Pasivos No Corrientes</th>
+                        <th class="col-2">Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="col-2">Total de deudas con vencimiento a largo plazo</td>
+                        <td class="col-2">0</td>
+                    </tr>
+                </tbody>
+                <thead>
+                    <tr>
+                        <th class="col-2">Pasivos Corrientes</th>
+                        <th class="col-2">Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="col-2">Total de deudas con vencimiento a corto plazo</td>
+                        <td class="col-2">0</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <a class="btn-sm btn-info" style="float: right;"><i class="bi bi-three-dots"></i></a>
         </div> 
         <div class="col-lg-4 text-center" id="card">
-            <h3>Patrimonio Neto</h3>
+            <h3 class="text-success"><strong>€0.00</strong></h3> - <h3 class="text-danger"><strong>€0.00</strong></h3>
         </div>
     </div>
 </div>

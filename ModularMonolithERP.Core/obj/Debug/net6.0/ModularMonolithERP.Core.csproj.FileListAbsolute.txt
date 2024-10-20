@@ -9,3 +9,4 @@ C:\Users\gesel\source\repos\ModularMonolithERP.Web\ModularMonolithERP.Core\obj\D
 C:\Users\gesel\source\repos\ModularMonolithERP.Web\ModularMonolithERP.Core\obj\Debug\net6.0\refint\ModularMonolithERP.Core.dll
 C:\Users\gesel\source\repos\ModularMonolithERP.Web\ModularMonolithERP.Core\obj\Debug\net6.0\ModularMonolithERP.Core.pdb
 C:\Users\gesel\source\repos\ModularMonolithERP.Web\ModularMonolithERP.Core\obj\Debug\net6.0\ref\ModularMonolithERP.Core.dll
+C:\Users\gesel\source\repos\ModularMonolithERP.Web\ModularMonolithERP.Core\obj\Debug\net6.0\ModularMonolithERP.Core.sourcelink.json

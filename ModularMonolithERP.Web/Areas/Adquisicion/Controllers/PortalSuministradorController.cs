@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace ModularMonolithERP.Web.Areas.Adquisicion.Controllers
 {
+    [Area("Adquisicion")]
     public class PortalSuministradorController : Controller
     {
         // GET: PortalSuministradorController

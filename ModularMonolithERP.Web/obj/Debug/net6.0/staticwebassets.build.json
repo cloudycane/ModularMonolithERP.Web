@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "UWob27/LVnRFyCbWVke96CrkKt1LTSljmE1XRGw7XY4=",
+  "Hash": "oAnnerQCHQJ6rHrowI2cSt+iJz/DzZqlcYuL7cHqEfw=",
   "Source": "ModularMonolithERP.Web",
   "BasePath": "_content/ModularMonolithERP.Web",
   "Mode": "Default",
@@ -129,6 +129,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\indexTransaccion.css"
+    },
+    {
+      "Identity": "C:\\Users\\gesel\\source\\repos\\ModularMonolithERP.Web\\ModularMonolithERP.Web\\wwwroot\\css\\portalSuministrador.css",
+      "SourceId": "ModularMonolithERP.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\gesel\\source\\repos\\ModularMonolithERP.Web\\ModularMonolithERP.Web\\wwwroot\\",
+      "BasePath": "_content/ModularMonolithERP.Web",
+      "RelativePath": "css/portalSuministrador.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\portalSuministrador.css"
     },
     {
       "Identity": "C:\\Users\\gesel\\source\\repos\\ModularMonolithERP.Web\\ModularMonolithERP.Web\\wwwroot\\css\\site.css",
