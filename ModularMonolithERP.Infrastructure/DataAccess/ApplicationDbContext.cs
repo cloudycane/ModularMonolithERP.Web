@@ -16,5 +16,6 @@ namespace ModularMonolithERP.Infrastructure.DataAccess
 
         public DbSet<TransaccionModel> Transacciones { get; set; }
         public DbSet<SuministradorModel> Suministradores { get; set; }
+        public DbSet<ProductoSuministradorModel> ProductosSuministradores { get; set; }
     }
 }

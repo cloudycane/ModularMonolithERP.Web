@@ -26,6 +26,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRxdWlzaWNpb25cVmlld3NcUG9ydGFsU3VtaW5pc3RyYWRvclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/gesel/source/repos/ModularMonolithERP.Web/ModularMonolithERP.Web/Areas/Adquisicion/Views/ProductoSuministrador/Crear.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRxdWlzaWNpb25cVmlld3NcUHJvZHVjdG9TdW1pbmlzdHJhZG9yXENyZWFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gesel/source/repos/ModularMonolithERP.Web/ModularMonolithERP.Web/Areas/Adquisicion/Views/ProductoSuministrador/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRxdWlzaWNpb25cVmlld3NcUHJvZHVjdG9TdW1pbmlzdHJhZG9yXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/gesel/source/repos/ModularMonolithERP.Web/ModularMonolithERP.Web/Areas/Adquisicion/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRxdWlzaWNpb25cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

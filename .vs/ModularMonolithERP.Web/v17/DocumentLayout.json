@@ -3,48 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\gesel\\source\\repos\\ModularMonolithERP.Web\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{260F4489-4146-4B48-A61E-26651CD19A97}|ModularMonolithERP.Web\\ModularMonolithERP.Web.csproj|c:\\users\\gesel\\source\\repos\\modularmonolitherp.web\\modularmonolitherp.web\\areas\\adquisicion\\views\\portalsuministrador\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{260F4489-4146-4B48-A61E-26651CD19A97}|ModularMonolithERP.Web\\ModularMonolithERP.Web.csproj|solutionrelative:modularmonolitherp.web\\areas\\adquisicion\\views\\portalsuministrador\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{74C5AABB-36B8-4464-A57C-A449D01C9308}|ModularMonolithERP.Infrastructure\\ModularMonolithERP.Infrastructure.csproj|c:\\users\\gesel\\source\\repos\\modularmonolitherp.web\\modularmonolitherp.infrastructure\\migrations\\20241022201703_a\u00F1adirproductossuministradoresentidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74C5AABB-36B8-4464-A57C-A449D01C9308}|ModularMonolithERP.Infrastructure\\ModularMonolithERP.Infrastructure.csproj|solutionrelative:modularmonolitherp.infrastructure\\migrations\\20241022201703_a\u00F1adirproductossuministradoresentidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{260F4489-4146-4B48-A61E-26651CD19A97}|ModularMonolithERP.Web\\ModularMonolithERP.Web.csproj|c:\\users\\gesel\\source\\repos\\modularmonolitherp.web\\modularmonolitherp.web\\areas\\contabilidad\\views\\cuentasporpagar\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{260F4489-4146-4B48-A61E-26651CD19A97}|ModularMonolithERP.Web\\ModularMonolithERP.Web.csproj|solutionrelative:modularmonolitherp.web\\areas\\contabilidad\\views\\cuentasporpagar\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{74C5AABB-36B8-4464-A57C-A449D01C9308}|ModularMonolithERP.Infrastructure\\ModularMonolithERP.Infrastructure.csproj|c:\\users\\gesel\\source\\repos\\modularmonolitherp.web\\modularmonolitherp.infrastructure\\dataaccess\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74C5AABB-36B8-4464-A57C-A449D01C9308}|ModularMonolithERP.Infrastructure\\ModularMonolithERP.Infrastructure.csproj|solutionrelative:modularmonolitherp.infrastructure\\dataaccess\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{260F4489-4146-4B48-A61E-26651CD19A97}|ModularMonolithERP.Web\\ModularMonolithERP.Web.csproj|c:\\users\\gesel\\source\\repos\\modularmonolitherp.web\\modularmonolitherp.web\\areas\\cliente\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{260F4489-4146-4B48-A61E-26651CD19A97}|ModularMonolithERP.Web\\ModularMonolithERP.Web.csproj|solutionrelative:modularmonolitherp.web\\areas\\cliente\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{31646D98-E58B-4CD0-AB85-E61C65E04A4D}|ModularMonolithERP.Core\\ModularMonolithERP.Core.csproj|c:\\users\\gesel\\source\\repos\\modularmonolitherp.web\\modularmonolitherp.core\\entidades\\suministradormodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31646D98-E58B-4CD0-AB85-E61C65E04A4D}|ModularMonolithERP.Core\\ModularMonolithERP.Core.csproj|solutionrelative:modularmonolitherp.core\\entidades\\suministradormodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{260F4489-4146-4B48-A61E-26651CD19A97}|ModularMonolithERP.Web\\ModularMonolithERP.Web.csproj|c:\\users\\gesel\\source\\repos\\modularmonolitherp.web\\modularmonolitherp.web\\areas\\contabilidad\\controllers\\transaccioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{260F4489-4146-4B48-A61E-26651CD19A97}|ModularMonolithERP.Web\\ModularMonolithERP.Web.csproj|solutionrelative:modularmonolitherp.web\\areas\\contabilidad\\controllers\\transaccioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{260F4489-4146-4B48-A61E-26651CD19A97}|ModularMonolithERP.Web\\ModularMonolithERP.Web.csproj|c:\\users\\gesel\\source\\repos\\modularmonolitherp.web\\modularmonolitherp.web\\wwwroot\\css\\portalsuministrador.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{260F4489-4146-4B48-A61E-26651CD19A97}|ModularMonolithERP.Web\\ModularMonolithERP.Web.csproj|solutionrelative:modularmonolitherp.web\\wwwroot\\css\\portalsuministrador.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{260F4489-4146-4B48-A61E-26651CD19A97}|ModularMonolithERP.Web\\ModularMonolithERP.Web.csproj|c:\\users\\gesel\\source\\repos\\modularmonolitherp.web\\modularmonolitherp.web\\wwwroot\\css\\balancegeneral.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{260F4489-4146-4B48-A61E-26651CD19A97}|ModularMonolithERP.Web\\ModularMonolithERP.Web.csproj|solutionrelative:modularmonolitherp.web\\wwwroot\\css\\balancegeneral.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{260F4489-4146-4B48-A61E-26651CD19A97}|ModularMonolithERP.Web\\ModularMonolithERP.Web.csproj|c:\\users\\gesel\\source\\repos\\modularmonolitherp.web\\modularmonolitherp.web\\viewmodels\\listadoviewmodel\\listadosuministradorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{260F4489-4146-4B48-A61E-26651CD19A97}|ModularMonolithERP.Web\\ModularMonolithERP.Web.csproj|solutionrelative:modularmonolitherp.web\\viewmodels\\listadoviewmodel\\listadosuministradorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{260F4489-4146-4B48-A61E-26651CD19A97}|ModularMonolithERP.Web\\ModularMonolithERP.Web.csproj|c:\\users\\gesel\\source\\repos\\modularmonolitherp.web\\modularmonolitherp.web\\areas\\adquisicion\\controllers\\portalsuministradorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{260F4489-4146-4B48-A61E-26651CD19A97}|ModularMonolithERP.Web\\ModularMonolithERP.Web.csproj|solutionrelative:modularmonolitherp.web\\areas\\adquisicion\\controllers\\portalsuministradorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{74C5AABB-36B8-4464-A57C-A449D01C9308}|ModularMonolithERP.Infrastructure\\ModularMonolithERP.Infrastructure.csproj|c:\\users\\gesel\\source\\repos\\modularmonolitherp.web\\modularmonolitherp.infrastructure\\repositorios\\suministradorrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74C5AABB-36B8-4464-A57C-A449D01C9308}|ModularMonolithERP.Infrastructure\\ModularMonolithERP.Infrastructure.csproj|solutionrelative:modularmonolitherp.infrastructure\\repositorios\\suministradorrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{31646D98-E58B-4CD0-AB85-E61C65E04A4D}|ModularMonolithERP.Core\\ModularMonolithERP.Core.csproj|c:\\users\\gesel\\source\\repos\\modularmonolitherp.web\\modularmonolitherp.core\\interfaces\\isuministradorrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31646D98-E58B-4CD0-AB85-E61C65E04A4D}|ModularMonolithERP.Core\\ModularMonolithERP.Core.csproj|solutionrelative:modularmonolitherp.core\\interfaces\\isuministradorrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{260F4489-4146-4B48-A61E-26651CD19A97}|ModularMonolithERP.Web\\ModularMonolithERP.Web.csproj|c:\\users\\gesel\\source\\repos\\modularmonolitherp.web\\modularmonolitherp.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{260F4489-4146-4B48-A61E-26651CD19A97}|ModularMonolithERP.Web\\ModularMonolithERP.Web.csproj|solutionrelative:modularmonolitherp.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{31646D98-E58B-4CD0-AB85-E61C65E04A4D}|ModularMonolithERP.Core\\ModularMonolithERP.Core.csproj|c:\\users\\gesel\\source\\repos\\modularmonolitherp.web\\modularmonolitherp.core\\entidades\\productosuministradormodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31646D98-E58B-4CD0-AB85-E61C65E04A4D}|ModularMonolithERP.Core\\ModularMonolithERP.Core.csproj|solutionrelative:modularmonolitherp.core\\entidades\\productosuministradormodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,145 +34,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\gesel\\source\\repos\\ModularMonolithERP.Web\\ModularMonolithERP.Web\\Areas\\Cliente\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "ModularMonolithERP.Web\\Areas\\Cliente\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\gesel\\source\\repos\\ModularMonolithERP.Web\\ModularMonolithERP.Web\\Areas\\Cliente\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "ModularMonolithERP.Web\\Areas\\Cliente\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAC+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-22T13:15:16.031Z",
+              "DocumentIndex": 0,
+              "Title": "20241022201703_A\u00F1adirProductosSuministradoresEntidad.cs",
+              "DocumentMoniker": "C:\\Users\\gesel\\source\\repos\\ModularMonolithERP.Web\\ModularMonolithERP.Infrastructure\\Migrations\\20241022201703_A\u00F1adirProductosSuministradoresEntidad.cs",
+              "RelativeDocumentMoniker": "ModularMonolithERP.Infrastructure\\Migrations\\20241022201703_A\u00F1adirProductosSuministradoresEntidad.cs",
+              "ToolTip": "C:\\Users\\gesel\\source\\repos\\ModularMonolithERP.Web\\ModularMonolithERP.Infrastructure\\Migrations\\20241022201703_A\u00F1adirProductosSuministradoresEntidad.cs",
+              "RelativeToolTip": "ModularMonolithERP.Infrastructure\\Migrations\\20241022201703_A\u00F1adirProductosSuministradoresEntidad.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T20:17:03.787Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\gesel\\source\\repos\\ModularMonolithERP.Web\\ModularMonolithERP.Web\\Areas\\Contabilidad\\Views\\CuentasPorPagar\\Index.cshtml",
-              "RelativeDocumentMoniker": "ModularMonolithERP.Web\\Areas\\Contabilidad\\Views\\CuentasPorPagar\\Index.cshtml",
-              "ToolTip": "C:\\Users\\gesel\\source\\repos\\ModularMonolithERP.Web\\ModularMonolithERP.Web\\Areas\\Contabilidad\\Views\\CuentasPorPagar\\Index.cshtml",
-              "RelativeToolTip": "ModularMonolithERP.Web\\Areas\\Contabilidad\\Views\\CuentasPorPagar\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-22T12:57:00.916Z",
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\gesel\\source\\repos\\ModularMonolithERP.Web\\ModularMonolithERP.Infrastructure\\DataAccess\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "ModularMonolithERP.Infrastructure\\DataAccess\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\gesel\\source\\repos\\ModularMonolithERP.Web\\ModularMonolithERP.Infrastructure\\DataAccess\\ApplicationDbContext.cs",
+              "RelativeToolTip": "ModularMonolithERP.Infrastructure\\DataAccess\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T20:15:28.069Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "balanceGeneral.css",
-              "DocumentMoniker": "C:\\Users\\gesel\\source\\repos\\ModularMonolithERP.Web\\ModularMonolithERP.Web\\wwwroot\\css\\balanceGeneral.css",
-              "RelativeDocumentMoniker": "ModularMonolithERP.Web\\wwwroot\\css\\balanceGeneral.css",
-              "ToolTip": "C:\\Users\\gesel\\source\\repos\\ModularMonolithERP.Web\\ModularMonolithERP.Web\\wwwroot\\css\\balanceGeneral.css",
-              "RelativeToolTip": "ModularMonolithERP.Web\\wwwroot\\css\\balanceGeneral.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-22T12:56:35.375Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "portalSuministrador.css",
-              "DocumentMoniker": "C:\\Users\\gesel\\source\\repos\\ModularMonolithERP.Web\\ModularMonolithERP.Web\\wwwroot\\css\\portalSuministrador.css",
-              "RelativeDocumentMoniker": "ModularMonolithERP.Web\\wwwroot\\css\\portalSuministrador.css",
-              "ToolTip": "C:\\Users\\gesel\\source\\repos\\ModularMonolithERP.Web\\ModularMonolithERP.Web\\wwwroot\\css\\portalSuministrador.css",
-              "RelativeToolTip": "ModularMonolithERP.Web\\wwwroot\\css\\portalSuministrador.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-22T12:56:26.857Z",
+              "DocumentIndex": 2,
+              "Title": "SuministradorModel.cs",
+              "DocumentMoniker": "C:\\Users\\gesel\\source\\repos\\ModularMonolithERP.Web\\ModularMonolithERP.Core\\Entidades\\SuministradorModel.cs",
+              "RelativeDocumentMoniker": "ModularMonolithERP.Core\\Entidades\\SuministradorModel.cs",
+              "ToolTip": "C:\\Users\\gesel\\source\\repos\\ModularMonolithERP.Web\\ModularMonolithERP.Core\\Entidades\\SuministradorModel.cs",
+              "RelativeToolTip": "ModularMonolithERP.Core\\Entidades\\SuministradorModel.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T20:14:54.931Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "TransaccionController.cs",
-              "DocumentMoniker": "C:\\Users\\gesel\\source\\repos\\ModularMonolithERP.Web\\ModularMonolithERP.Web\\Areas\\Contabilidad\\Controllers\\TransaccionController.cs",
-              "RelativeDocumentMoniker": "ModularMonolithERP.Web\\Areas\\Contabilidad\\Controllers\\TransaccionController.cs",
-              "ToolTip": "C:\\Users\\gesel\\source\\repos\\ModularMonolithERP.Web\\ModularMonolithERP.Web\\Areas\\Contabilidad\\Controllers\\TransaccionController.cs",
-              "RelativeToolTip": "ModularMonolithERP.Web\\Areas\\Contabilidad\\Controllers\\TransaccionController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAzAAAAAAAAAA==",
+              "Title": "ProductoSuministradorModel.cs",
+              "DocumentMoniker": "C:\\Users\\gesel\\source\\repos\\ModularMonolithERP.Web\\ModularMonolithERP.Core\\Entidades\\ProductoSuministradorModel.cs",
+              "RelativeDocumentMoniker": "ModularMonolithERP.Core\\Entidades\\ProductoSuministradorModel.cs",
+              "ToolTip": "C:\\Users\\gesel\\source\\repos\\ModularMonolithERP.Web\\ModularMonolithERP.Core\\Entidades\\ProductoSuministradorModel.cs",
+              "RelativeToolTip": "ModularMonolithERP.Core\\Entidades\\ProductoSuministradorModel.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T12:51:27.412Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\gesel\\source\\repos\\ModularMonolithERP.Web\\ModularMonolithERP.Web\\Areas\\Adquisicion\\Views\\PortalSuministrador\\Index.cshtml",
-              "RelativeDocumentMoniker": "ModularMonolithERP.Web\\Areas\\Adquisicion\\Views\\PortalSuministrador\\Index.cshtml",
-              "ToolTip": "C:\\Users\\gesel\\source\\repos\\ModularMonolithERP.Web\\ModularMonolithERP.Web\\Areas\\Adquisicion\\Views\\PortalSuministrador\\Index.cshtml",
-              "RelativeToolTip": "ModularMonolithERP.Web\\Areas\\Adquisicion\\Views\\PortalSuministrador\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAADSAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-22T12:43:04.913Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ListadoSuministradorViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\gesel\\source\\repos\\ModularMonolithERP.Web\\ModularMonolithERP.Web\\ViewModels\\ListadoViewModel\\ListadoSuministradorViewModel.cs",
-              "RelativeDocumentMoniker": "ModularMonolithERP.Web\\ViewModels\\ListadoViewModel\\ListadoSuministradorViewModel.cs",
-              "ToolTip": "C:\\Users\\gesel\\source\\repos\\ModularMonolithERP.Web\\ModularMonolithERP.Web\\ViewModels\\ListadoViewModel\\ListadoSuministradorViewModel.cs",
-              "RelativeToolTip": "ModularMonolithERP.Web\\ViewModels\\ListadoViewModel\\ListadoSuministradorViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T12:42:34.142Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "PortalSuministradorController.cs",
-              "DocumentMoniker": "C:\\Users\\gesel\\source\\repos\\ModularMonolithERP.Web\\ModularMonolithERP.Web\\Areas\\Adquisicion\\Controllers\\PortalSuministradorController.cs",
-              "RelativeDocumentMoniker": "ModularMonolithERP.Web\\Areas\\Adquisicion\\Controllers\\PortalSuministradorController.cs",
-              "ToolTip": "C:\\Users\\gesel\\source\\repos\\ModularMonolithERP.Web\\ModularMonolithERP.Web\\Areas\\Adquisicion\\Controllers\\PortalSuministradorController.cs",
-              "RelativeToolTip": "ModularMonolithERP.Web\\Areas\\Adquisicion\\Controllers\\PortalSuministradorController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T12:41:14.924Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\gesel\\source\\repos\\ModularMonolithERP.Web\\ModularMonolithERP.Web\\Program.cs",
-              "RelativeDocumentMoniker": "ModularMonolithERP.Web\\Program.cs",
-              "ToolTip": "C:\\Users\\gesel\\source\\repos\\ModularMonolithERP.Web\\ModularMonolithERP.Web\\Program.cs",
-              "RelativeToolTip": "ModularMonolithERP.Web\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T12:31:16.981Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "SuministradorRepositorio.cs",
-              "DocumentMoniker": "C:\\Users\\gesel\\source\\repos\\ModularMonolithERP.Web\\ModularMonolithERP.Infrastructure\\Repositorios\\SuministradorRepositorio.cs",
-              "RelativeDocumentMoniker": "ModularMonolithERP.Infrastructure\\Repositorios\\SuministradorRepositorio.cs",
-              "ToolTip": "C:\\Users\\gesel\\source\\repos\\ModularMonolithERP.Web\\ModularMonolithERP.Infrastructure\\Repositorios\\SuministradorRepositorio.cs",
-              "RelativeToolTip": "ModularMonolithERP.Infrastructure\\Repositorios\\SuministradorRepositorio.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T12:30:51.053Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ISuministradorRepositorio.cs",
-              "DocumentMoniker": "C:\\Users\\gesel\\source\\repos\\ModularMonolithERP.Web\\ModularMonolithERP.Core\\Interfaces\\ISuministradorRepositorio.cs",
-              "RelativeDocumentMoniker": "ModularMonolithERP.Core\\Interfaces\\ISuministradorRepositorio.cs",
-              "ToolTip": "C:\\Users\\gesel\\source\\repos\\ModularMonolithERP.Web\\ModularMonolithERP.Core\\Interfaces\\ISuministradorRepositorio.cs",
-              "RelativeToolTip": "ModularMonolithERP.Core\\Interfaces\\ISuministradorRepositorio.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T12:29:53.175Z",
+              "WhenOpened": "2024-10-22T20:09:53.88Z",
               "EditorCaption": ""
             }
           ]

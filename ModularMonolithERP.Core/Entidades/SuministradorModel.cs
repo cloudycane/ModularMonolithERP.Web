@@ -22,5 +22,7 @@ namespace ModularMonolithERP.Core.Entidades
         public MonedaPreferidaEnum MonedaPreferida { get; set; }
         public TipoProveedorEnum TipoProveedor { get; set; }
         public PaisOrigenEnum PaisOrigen { get; set; }
+        // nav property
+        public ProductoSuministradorModel ProductoSuministrador { get; set; }
     }
 }
