@@ -8,15 +8,15 @@ namespace ModularMonolithERP.Core.Enums
 {
     public enum MetodosTransporteEnum
     {
-        TransporteTerrestre,
-        TransporteMaritimo,
-        TransporteAereo,
-        TransporteFerrocarril,
-        TransporteMultimodal,
-        Dron,
-        Mensajeria,
-        EntregaRapida,
-        TransporteCargasPesadas
+        TransporteTerrestre = 0,
+        TransporteMaritimo = 1,
+        TransporteAereo = 2,
+        TransporteFerrocarril = 3,
+        TransporteMultimodal = 4,
+        Dron = 5,
+        Mensajeria = 6,
+        EntregaRapida = 7,
+        TransporteCargasPesadas = 8,
     }
 
 }

@@ -17,6 +17,14 @@
       "PackagePath": "staticwebassets\\css\\cuentaResultados.css"
     },
     {
+      "Id": "C:\\Users\\gesel\\source\\repos\\ModularMonolithERP.Web\\ModularMonolithERP.Web\\wwwroot\\css\\indexCuentasCobrar.css",
+      "PackagePath": "staticwebassets\\css\\indexCuentasCobrar.css"
+    },
+    {
+      "Id": "C:\\Users\\gesel\\source\\repos\\ModularMonolithERP.Web\\ModularMonolithERP.Web\\wwwroot\\css\\indexCuentasPagar.css",
+      "PackagePath": "staticwebassets\\css\\indexCuentasPagar.css"
+    },
+    {
       "Id": "C:\\Users\\gesel\\source\\repos\\ModularMonolithERP.Web\\ModularMonolithERP.Web\\wwwroot\\css\\indexTransaccion.css",
       "PackagePath": "staticwebassets\\css\\indexTransaccion.css"
     },

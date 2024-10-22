@@ -6,8 +6,9 @@ namespace ModularMonolithERP.Web.Areas.Adquisicion.Controllers
     public class ProcurarController : Controller
     {
         // GET: PedidosController
-        public ActionResult Index()
+        public async Task<IActionResult> Index()
         {
+            
             return View();
         }
 

@@ -14,8 +14,8 @@ namespace ModularMonolithERP.Infrastructure.Repositorios
     {
         private readonly ApplicationDbContext _context; 
 
-        public SuministradorRepositorio(ApplicationDbContext context)
-        {
+        public SuministradorRepositorio(ApplicationDbContext context) 
+        { 
             _context = context;
         }
 
@@ -24,10 +24,10 @@ namespace ModularMonolithERP.Infrastructure.Repositorios
             return await _context.Suministradores.ToListAsync();
         }
 
-        public async Task CrearSuministrador(SuministradorModel suministrador)
+        public async Task CrearAsync(SuministradorModel model)
         {
-            await _context.AddAsync(suministrador);
-            await _context.SaveChangesAsync();  
+            await _context.AddAsync(model);
+            await _context.SaveChangesAsync();
         }
     }
 }

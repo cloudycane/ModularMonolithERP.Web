@@ -54,8 +54,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ29udGFiaWxpZGFkXFZpZXdzXEJhbGFuY2VHZW5lcmFsXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/gesel/source/repos/ModularMonolithERP.Web/ModularMonolithERP.Web/Areas/Contabilidad/Views/ContabilidadGeneral/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ29udGFiaWxpZGFkXFZpZXdzXENvbnRhYmlsaWRhZEdlbmVyYWxcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/gesel/source/repos/ModularMonolithERP.Web/ModularMonolithERP.Web/Areas/Contabilidad/Views/CuentaResultados/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ29udGFiaWxpZGFkXFZpZXdzXEN1ZW50YVJlc3VsdGFkb3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gesel/source/repos/ModularMonolithERP.Web/ModularMonolithERP.Web/Areas/Contabilidad/Views/CuentasPorCobrar/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ29udGFiaWxpZGFkXFZpZXdzXEN1ZW50YXNQb3JDb2JyYXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gesel/source/repos/ModularMonolithERP.Web/ModularMonolithERP.Web/Areas/Contabilidad/Views/CuentasPorPagar/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ29udGFiaWxpZGFkXFZpZXdzXEN1ZW50YXNQb3JQYWdhclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/gesel/source/repos/ModularMonolithERP.Web/ModularMonolithERP.Web/Areas/Contabilidad/Views/Transaccion/Crear.cshtml]

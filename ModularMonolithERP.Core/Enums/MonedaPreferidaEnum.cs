@@ -8,161 +8,161 @@ namespace ModularMonolithERP.Core.Enums
 {
     public enum MonedaPreferidaEnum
     {
-        AED, // Dirham de Emiratos Árabes Unidos
-        AFN, // Afgani de Afganistán
-        ALL, // Lek de Albania
-        AMD, // Dram de Armenia
-        ANG, // Florín de Antillas Neerlandesas
-        AOA, // Kwanza de Angola
-        ARS, // Peso Argentino
-        AUD, // Dólar Australiano
-        AWG, // Florín de Aruba
-        AZN, // Manat de Azerbaiyán
-        BAM, // Marco Convertible de Bosnia-Herzegovina
-        BBD, // Dólar de Barbados
-        BDT, // Taka de Bangladés
-        BGN, // Lev Búlgaro
-        BHD, // Dinar de Baréin
-        BIF, // Franco de Burundi
-        BMD, // Dólar de Bermudas
-        BND, // Dólar de Brunéi
-        BOB, // Boliviano de Bolivia
-        BRL, // Real Brasileño
-        BSD, // Dólar de las Bahamas
-        BTN, // Ngultrum de Bután
-        BWP, // Pula de Botsuana
-        BYN, // Rublo Bielorruso
-        BZD, // Dólar de Belice
-        CAD, // Dólar Canadiense
-        CDF, // Franco Congoleño
-        CHF, // Franco Suizo
-        CLP, // Peso Chileno
-        CNY, // Yuan Chino
-        COP, // Peso Colombiano
-        CRC, // Colón Costarricense
-        CUP, // Peso Cubano
-        CVE, // Escudo de Cabo Verde
-        CZK, // Corona Checa
-        DJF, // Franco Yibutiano
-        DKK, // Corona Danesa
-        DOP, // Peso Dominicano
-        DZD, // Dinar Argelino
-        EGP, // Libra Egipcia
-        ERN, // Nakfa de Eritrea
-        ETB, // Birr Etíope
-        EUR, // Euro
-        FJD, // Dólar Fiyiano
-        FKP, // Libra de las Islas Malvinas
-        FOK, // Corona de las Islas Feroe
-        GBP, // Libra Esterlina
-        GEL, // Lari Georgiano
-        GHS, // Cedi Ghanés
-        GIP, // Libra de Gibraltar
-        GMD, // Dalasi de Gambia
-        GNF, // Franco Guineano
-        GTQ, // Quetzal Guatemalteco
-        GYD, // Dólar Guyanés
-        HKD, // Dólar de Hong Kong
-        HNL, // Lempira Hondureño
-        HRK, // Kuna Croata
-        HTG, // Gourde Haitiano
-        HUF, // Florín Húngaro
-        IDR, // Rupia Indonesia
-        ILS, // Nuevo Shekel Israelí
-        INR, // Rupia India
-        IQD, // Dinar Iraquí
-        IRR, // Rial Iraní
-        ISK, // Corona Islandesa
-        JMD, // Dólar Jamaicano
-        JOD, // Dinar Jordano
-        JPY, // Yen Japonés
-        KES, // Chelín Keniano
-        KGS, // Som Kirguís
-        KHR, // Riel Camboyano
-        KMF, // Franco Comorense
-        KRW, // Won Surcoreano
-        KWD, // Dinar Kuwaití
-        KYD, // Dólar de las Islas Caimán
-        KZT, // Tenge Kazajo
-        LAK, // Kip Lao
-        LBP, // Libra Libanesa
-        LKR, // Rupia de Sri Lanka
-        LRD, // Dólar Liberiano
-        LSL, // Loti de Lesoto
-        LYD, // Dinar Libio
-        MAD, // Dirham Marroquí
-        MDL, // Leu Moldavo
-        MGA, // Ariary Malgache
-        MKD, // Denar Macedonio
-        MMK, // Kyat Birmano
-        MNT, // Tugrik Mongol
-        MOP, // Pataca Macaense
-        MRU, // Ouguiya Mauritano
-        MUR, // Rupia Mauriciana
-        MVR, // Rufiyaa Maldiva
-        MWK, // Kwacha Malauí
-        MXN, // Peso Mexicano
-        MYR, // Ringgit Malasio
-        MZN, // Metical Mozambiqueño
-        NAD, // Dólar Namibio
-        NGN, // Naira Nigeriana
-        NIO, // Córdoba Nicaragüense
-        NOK, // Corona Noruega
-        NPR, // Rupia Nepalí
-        NZD, // Dólar Neozelandés
-        OMR, // Rial Omaní
-        PAB, // Balboa Panameño
-        PEN, // Sol Peruano
-        PGK, // Kina de Papúa Nueva Guinea
-        PHP, // Peso Filipino
-        PKR, // Rupia Pakistaní
-        PLN, // Złoty Polaco
-        PYG, // Guaraní Paraguayo
-        QAR, // Rial Catarí
-        RON, // Leu Rumano
-        RSD, // Dinar Serbio
-        RUB, // Rublo Ruso
-        RWF, // Franco Ruandés
-        SAR, // Riyal Saudí
-        SBD, // Dólar de las Islas Salomón
-        SCR, // Rupia de Seychelles
-        SDG, // Libra Sudanesa
-        SEK, // Corona Sueca
-        SGD, // Dólar de Singapur
-        SHP, // Libra de Santa Elena
-        SLL, // Leone de Sierra Leona
-        SOS, // Chelín Somalí
-        SRD, // Dólar Surinamés
-        SSP, // Libra del Sudán del Sur
-        STN, // Dobra Santotomense
-        SYP, // Libra Siria
-        SZL, // Lilangeni Suazi
-        THB, // Baht Tailandés
-        TJS, // Somoni Tayiko
-        TMT, // Manat Turcomano
-        TND, // Dinar Tunecino
-        TOP, // Paʻanga Tongano
-        TRY, // Lira Turca
-        TTD, // Dólar de Trinidad y Tobago
-        TWD, // Nuevo Dólar Taiwanés
-        TZS, // Chelín Tanzano
-        UAH, // Grivna Ucraniana
-        UGX, // Chelín Ugandés
-        USD, // Dólar Estadounidense
-        UYU, // Peso Uruguayo
-        UZS, // Som Uzbeko
-        VES, // Bolívar Venezolano
-        VND, // Dong Vietnamita
-        VUV, // Vatu de Vanuatu
-        WST, // Tala Samoano
-        XAF, // Franco CFA BEAC
-        XCD, // Dólar del Caribe Oriental
-        XOF, // Franco CFA BCEAO
-        XPF, // Franco CFP
-        YER, // Rial Yemaní
-        ZAR, // Rand Sudafricano
-        ZMW, // Kwacha Zambiano
-        ZWL  // Dólar Zimbabuense
+        AED = 0,  // Dirham de Emiratos Árabes Unidos
+        AFN = 1,  // Afgani de Afganistán
+        ALL = 2,  // Lek de Albania
+        AMD = 3,  // Dram de Armenia
+        ANG = 4,  // Florín de Antillas Neerlandesas
+        AOA = 5,  // Kwanza de Angola
+        ARS = 6,  // Peso Argentino
+        AUD = 7,  // Dólar Australiano
+        AWG = 8,  // Florín de Aruba
+        AZN = 9,  // Manat de Azerbaiyán
+        BAM = 10, // Marco Convertible de Bosnia-Herzegovina
+        BBD = 11, // Dólar de Barbados
+        BDT = 12, // Taka de Bangladés
+        BGN = 13, // Lev Búlgaro
+        BHD = 14, // Dinar de Baréin
+        BIF = 15, // Franco de Burundi
+        BMD = 16, // Dólar de Bermudas
+        BND = 17, // Dólar de Brunéi
+        BOB = 18, // Boliviano de Bolivia
+        BRL = 19, // Real Brasileño
+        BSD = 20, // Dólar de las Bahamas
+        BTN = 21, // Ngultrum de Bután
+        BWP = 22, // Pula de Botsuana
+        BYN = 23, // Rublo Bielorruso
+        BZD = 24, // Dólar de Belice
+        CAD = 25, // Dólar Canadiense
+        CDF = 26, // Franco Congoleño
+        CHF = 27, // Franco Suizo
+        CLP = 28, // Peso Chileno
+        CNY = 29, // Yuan Chino
+        COP = 30, // Peso Colombiano
+        CRC = 31, // Colón Costarricense
+        CUP = 32, // Peso Cubano
+        CVE = 33, // Escudo de Cabo Verde
+        CZK = 34, // Corona Checa
+        DJF = 35, // Franco Yibutiano
+        DKK = 36, // Corona Danesa
+        DOP = 37, // Peso Dominicano
+        DZD = 38, // Dinar Argelino
+        EGP = 39, // Libra Egipcia
+        ERN = 40, // Nakfa de Eritrea
+        ETB = 41, // Birr Etíope
+        EUR = 42, // Euro
+        FJD = 43, // Dólar Fiyiano
+        FKP = 44, // Libra de las Islas Malvinas
+        FOK = 45, // Corona de las Islas Feroe
+        GBP = 46, // Libra Esterlina
+        GEL = 47, // Lari Georgiano
+        GHS = 48, // Cedi Ghanés
+        GIP = 49, // Libra de Gibraltar
+        GMD = 50, // Dalasi de Gambia
+        GNF = 51, // Franco Guineano
+        GTQ = 52, // Quetzal Guatemalteco
+        GYD = 53, // Dólar Guyanés
+        HKD = 54, // Dólar de Hong Kong
+        HNL = 55, // Lempira Hondureño
+        HRK = 56, // Kuna Croata
+        HTG = 57, // Gourde Haitiano
+        HUF = 58, // Florín Húngaro
+        IDR = 59, // Rupia Indonesia
+        ILS = 60, // Nuevo Shekel Israelí
+        INR = 61, // Rupia India
+        IQD = 62, // Dinar Iraquí
+        IRR = 63, // Rial Iraní
+        ISK = 64, // Corona Islandesa
+        JMD = 65, // Dólar Jamaicano
+        JOD = 66, // Dinar Jordano
+        JPY = 67, // Yen Japonés
+        KES = 68, // Chelín Keniano
+        KGS = 69, // Som Kirguís
+        KHR = 70, // Riel Camboyano
+        KMF = 71, // Franco Comorense
+        KRW = 72, // Won Surcoreano
+        KWD = 73, // Dinar Kuwaití
+        KYD = 74, // Dólar de las Islas Caimán
+        KZT = 75, // Tenge Kazajo
+        LAK = 76, // Kip Lao
+        LBP = 77, // Libra Libanesa
+        LKR = 78, // Rupia de Sri Lanka
+        LRD = 79, // Dólar Liberiano
+        LSL = 80, // Loti de Lesoto
+        LYD = 81, // Dinar Libio
+        MAD = 82, // Dirham Marroquí
+        MDL = 83, // Leu Moldavo
+        MGA = 84, // Ariary Malgache
+        MKD = 85, // Denar Macedonio
+        MMK = 86, // Kyat Birmano
+        MNT = 87, // Tugrik Mongol
+        MOP = 88, // Pataca Macaense
+        MRU = 89, // Ouguiya Mauritano
+        MUR = 90, // Rupia Mauriciana
+        MVR = 91, // Rufiyaa Maldiva
+        MWK = 92, // Kwacha Malauí
+        MXN = 93, // Peso Mexicano
+        MYR = 94, // Ringgit Malasio
+        MZN = 95, // Metical Mozambiqueño
+        NAD = 96, // Dólar Namibio
+        NGN = 97, // Naira Nigeriana
+        NIO = 98, // Córdoba Nicaragüense
+        NOK = 99, // Corona Noruega
+        NPR = 100, // Rupia Nepalí
+        NZD = 101, // Dólar Neozelandés
+        OMR = 102, // Rial Omaní
+        PAB = 103, // Balboa Panameño
+        PEN = 104, // Sol Peruano
+        PGK = 105, // Kina de Papúa Nueva Guinea
+        PHP = 106, // Peso Filipino
+        PKR = 107, // Rupia Pakistaní
+        PLN = 108, // Złoty Polaco
+        PYG = 109, // Guaraní Paraguayo
+        QAR = 110, // Rial Catarí
+        RON = 111, // Leu Rumano
+        RSD = 112, // Dinar Serbio
+        RUB = 113, // Rublo Ruso
+        RWF = 114, // Franco Ruandés
+        SAR = 115, // Riyal Saudí
+        SBD = 116, // Dólar de las Islas Salomón
+        SCR = 117, // Rupia de Seychelles
+        SDG = 118, // Libra Sudanesa
+        SEK = 119, // Corona Sueca
+        SGD = 120, // Dólar de Singapur
+        SHP = 121, // Libra de Santa Elena
+        SLL = 122, // Leone de Sierra Leona
+        SOS = 123, // Chelín Somalí
+        SRD = 124, // Dólar Surinamés
+        SSP = 125, // Libra del Sudán del Sur
+        STN = 126, // Dobra Santotomense
+        SYP = 127, // Libra Siria
+        SZL = 128, // Lilangeni Suazi
+        THB = 129, // Baht Tailandés
+        TJS = 130, // Somoni Tayiko
+        TMT = 131, // Manat Turcomano
+        TND = 132, // Dinar Tunecino
+        TOP = 133, // Paʻanga Tongano
+        TRY = 134, // Lira Turca
+        TTD = 135, // Dólar de Trinidad y Tobago
+        TWD = 136, // Nuevo Dólar Taiwanés
+        TZS = 137, // Chelín Tanzano
+        UAH = 138, // Grivna Ucraniana
+        UGX = 139, // Chelín Ugandés
+        USD = 140, // Dólar Estadounidense
+        UYU = 141, // Peso Uruguayo
+        UZS = 142, // Som Uzbeko
+        VES = 143, // Bolívar Venezolano
+        VND = 144, // Dong Vietnamita
+        VUV = 145, // Vatu de Vanuatu
+        WST = 146, // Tala Samoano
+        XAF = 147, // Franco CFA BEAC
+        XCD = 148, // Dólar del Caribe Oriental
+        XOF = 149, // Franco CFA BCEAO
+        XPF = 150, // Franco CFP
+        YER = 151, // Rial Yemení
+        ZAR = 152, // Rand Sudafricano
+        ZMW = 153, // Kwacha Zambiano
+        ZWL = 154  // Dólar Zimbabuense
     }
 
 }

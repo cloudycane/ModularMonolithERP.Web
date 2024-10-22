@@ -8,14 +8,14 @@ namespace ModularMonolithERP.Core.Enums
 {
     public enum FormasPagoEnum
     {
-        TransferenciaBancaria,
-        TarjetaCredito,
-        TarjetaDebito,
-        PayPal,
-        Cheque,
-        Efectivo,
-        GiroBancario,
-        Criptomonedas
+        TransferenciaBancaria = 0,
+        TarjetaCredito = 1,
+        TarjetaDebito = 2,
+        PayPal = 3,
+        Cheque = 4,
+        Efectivo = 5,
+        GiroBancario = 6,
+        Criptomonedas = 7,
     }
 
 }

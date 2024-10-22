@@ -8,19 +8,19 @@ namespace ModularMonolithERP.Core.Enums
 {
     public enum CategoriaProveedorEnum
     {
-        MateriaPrima,
-        Servicios,
-        Equipos,
-        Tecnologia,
-        Logistica,
-        Transporte,
-        SuministrosOficina,
-        Consultoria,
-        Mantenimiento,
-        Alimentos,
-        Medicamentos,
-        Ropa,
-        Construccion
+        MateriaPrima = 0,
+        Servicios = 1,
+        Equipos = 2,
+        Tecnologia = 3,
+        Logistica = 4,
+        Transporte = 5,
+        SuministrosOficina = 6,
+        Consultoria = 7,
+        Mantenimiento = 8,
+        Alimentos = 9,
+        Medicamentos = 10,
+        Ropa = 11,
+        Construccion = 12
     }
 
 }

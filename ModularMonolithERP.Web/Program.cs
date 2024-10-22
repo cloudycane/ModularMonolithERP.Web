@@ -15,7 +15,6 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 builder.Services.AddScoped<ITransaccionRepositorio, TransaccionRepositorio>();
 builder.Services.AddScoped<ISuministradorRepositorio, SuministradorRepositorio>();
 
-
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
