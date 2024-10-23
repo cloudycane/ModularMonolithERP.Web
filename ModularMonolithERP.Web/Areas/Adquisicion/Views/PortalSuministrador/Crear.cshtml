@@ -1,1 +1,41 @@
-﻿
+﻿@model SuministradorViewModel
+
+<h1>Crear Suministrador</h1>
+
+<div class="container">
+
+   @using (Html.BeginForm("Crear", "PortalSuministrador", FormMethod.Post, new { @style = "margin-top: 4%; margin-bottom: 4% " }))
+    {
+        <div class="col-lg-3">
+            @Html.LabelFor(model => model.Nombre)
+            @Html.TextBoxFor(model => model.Nombre, "", new { @class = "form-control"  })
+        </div>
+
+        <div class="col-lg-3">
+            @Html.LabelFor(model => model.Descripcion)
+            @Html.TextBoxFor(model => model.Descripcion, "", new { @class = "form-control"  })
+        </div>
+
+        <div class="col-lg-3">
+            @Html.LabelFor(model => model.Direccion)
+            @Html.TextBoxFor(model => model.Direccion, "", new { @class = "form-control"  })
+        </div>
+    
+        <div class="col-lg-3">
+            @Html.LabelFor(model => model.Email)
+            @Html.TextBoxFor(model => model.Email, "", new { @class = "form-control"  })
+        </div>
+
+        <div class="col-lg-3">
+            @Html.LabelFor(model => model.TelefonoContacto)
+            @Html.TextBoxFor(model => model.TelefonoContacto, "", new { @class = "form-control"  })
+        </div>
+
+        <div class="col-lg-3">
+            @Html.LabelFor(model => model.ProductoSuministradorSelectListItem)
+            @Html.DropDownListFor(model => model.ProductoSuministradorId, Model.ProductoSuministradorSelectListItem, "Seleccionar", new {@class = "form-control"})
+        </div>
+    
+    }
+
+</div>

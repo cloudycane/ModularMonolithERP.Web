@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using ModularMonolithERP.Application.UseCases.GetQueries;
+using ModularMonolithERP.Core.Entidades;
 using ModularMonolithERP.Core.Interfaces;
 using ModularMonolithERP.Web.ViewModels;
 using ModularMonolithERP.Web.ViewModels.ListadoViewModel;
@@ -10,10 +12,11 @@ namespace ModularMonolithERP.Web.Areas.Adquisicion.Controllers
     public class PortalSuministradorController : Controller
     {
         private readonly ISuministradorRepositorio _suministradorRepositorio;
-
-        public PortalSuministradorController(ISuministradorRepositorio suministradorRepositorio)
+        private readonly ProductoSuministradorGetQuery _productoSuministradorGetQuery;
+        public PortalSuministradorController(ISuministradorRepositorio suministradorRepositorio, ProductoSuministradorGetQuery productoSuministradorGetQuery)
         {
             _suministradorRepositorio = suministradorRepositorio;
+            _productoSuministradorGetQuery = productoSuministradorGetQuery;
         }
 
 
@@ -37,24 +40,54 @@ namespace ModularMonolithERP.Web.Areas.Adquisicion.Controllers
         }
 
         // GET: PortalSuministradorController/Create
-        public ActionResult Crear()
+        public async Task<IActionResult> Crear()
         {
-            return View();
+            var productoSuministrador = await _productoSuministradorGetQuery.ExecuteAsync();
+
+            var viewModel = new SuministradorViewModel
+            {
+                ProductoSuministradorSelectListItem = new Microsoft.AspNetCore.Mvc.Rendering.SelectList(productoSuministrador, "Id", "NombreProducto")
+            };
+            return View(viewModel);
         }
 
         // POST: PortalSuministradorController/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Crear(IFormCollection collection)
+        public async Task<IActionResult> Crear(SuministradorViewModel viewModel)
         {
-            try
+           
+            if (ModelState.IsValid)
             {
-                return RedirectToAction(nameof(Index));
+                var suministrador = new SuministradorModel()
+                {
+                    CategoriaProveedor = viewModel.CategoriaProveedor, 
+                    Descripcion = viewModel.Descripcion, 
+                    Direccion = viewModel.Direccion,
+                    CondicionesPagoEnum = viewModel.CondicionesPagoEnum, 
+                    Email = viewModel.Email,
+                    FormasPago = viewModel.FormasPago, 
+                    MetodosTransporte = viewModel.MetodosTransporte,
+                    MonedaPreferida = viewModel.MonedaPreferida,
+                    Nombre = viewModel.Nombre,
+                    PaisOrigen = viewModel.PaisOrigen,
+                    ProductoSuministradorId = (int)viewModel.ProductoSuministradorId,
+                    TelefonoContacto = viewModel.TelefonoContacto,
+                    TipoProveedor = viewModel.TipoProveedor
+
+                };
+                await _suministradorRepositorio.CrearAsync(suministrador);
+                return RedirectToAction("Index");
+
+
+
             }
-            catch
-            {
-                return View();
-            }
+            // Recargar el SelectList en caso de que la validación falle
+            var productoSuministrador = await _productoSuministradorGetQuery.ExecuteAsync();
+            viewModel.ProductoSuministradorSelectListItem = new Microsoft.AspNetCore.Mvc.Rendering.SelectList(productoSuministrador, "Id", "Nombre");
+
+            return View(viewModel);
+
         }
 
         // GET: PortalSuministradorController/Edit/5

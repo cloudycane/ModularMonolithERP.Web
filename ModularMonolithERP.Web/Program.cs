@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using ModularMonolithERP.Application.UseCases.GetQueries;
 using ModularMonolithERP.Core.Interfaces;
 using ModularMonolithERP.Infrastructure.DataAccess;
 using ModularMonolithERP.Infrastructure.Repositorios;
@@ -8,13 +9,13 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();
-
 // Add DbContext Service
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+builder.Services.AddScoped<ProductoSuministradorGetQuery>();
 builder.Services.AddScoped<ITransaccionRepositorio, TransaccionRepositorio>();
 builder.Services.AddScoped<ISuministradorRepositorio, SuministradorRepositorio>();
-
+builder.Services.AddScoped<IProductoSuministradorRepositorio, ProductoSuministradorRepositorio>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
