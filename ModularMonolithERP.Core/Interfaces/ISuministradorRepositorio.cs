@@ -11,5 +11,6 @@ namespace ModularMonolithERP.Core.Interfaces
     {
         Task CrearAsync(SuministradorModel model);
         Task<IEnumerable<SuministradorModel>> ObtenerListadoSuministradorAsync();
+        
     }
 }

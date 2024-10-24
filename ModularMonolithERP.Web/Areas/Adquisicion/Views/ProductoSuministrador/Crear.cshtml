@@ -1,5 +1,40 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
+﻿@model ProductoSuministradorViewModel
+
 @{
+
 }
+<h1>Crear Producto (Suministrador)</h1>
+<div class="container" style="margin-top: 3%">
+    @using (Html.BeginForm("Crear", "ProductoSuministrador", FormMethod.Post, new { }))
+    {
+        
+        <div class="col-lg-3">
+            @Html.LabelFor(model => model.NombreProducto)
+            @Html.TextBoxFor(model => model.NombreProducto, "", new { @class = "form-control"})
+        </div>
+
+        <div class="col-lg-3">
+            @Html.LabelFor(model => model.DescripcionProducto)
+            @Html.TextBoxFor(model => model.DescripcionProducto, "", new { @class = "form-control" })
+        </div>
+
+        <div class="col-lg-3">
+            @Html.LabelFor(model => model.CosteProducto)
+            @Html.TextBoxFor(model => model.CosteProducto, "", new { @class = "form-control", @type = "number"})
+        </div>
+
+        <div class="col-lg-3">
+            @Html.LabelFor(model => model.CantidadProducto)
+            @Html.TextBoxFor(model => model.CantidadProducto, "", new { @class = "form-control", @type = "number"})
+        </div>
+
+        <div class="col-lg-3">
+            @Html.LabelFor(model => model.SuministradorId)
+            @Html.DropDownListFor(model => model.SuministradorId, Model.Suministrador, "Seleccionar Proveedor", new{ @class = "form-control" })
+        </div>
+
+        <div class="col-lg-3" style="float: right; margin-top: 2%;">
+            <button class="btn btn-primary" type="submit">Enviar</button>
+        </div>
+    }
+</div>

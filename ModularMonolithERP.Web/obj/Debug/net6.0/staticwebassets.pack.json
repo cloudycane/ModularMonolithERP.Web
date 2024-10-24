@@ -25,6 +25,10 @@
       "PackagePath": "staticwebassets\\css\\indexCuentasPagar.css"
     },
     {
+      "Id": "C:\\Users\\gesel\\source\\repos\\ModularMonolithERP.Web\\ModularMonolithERP.Web\\wwwroot\\css\\indexProductoSuministrador.css",
+      "PackagePath": "staticwebassets\\css\\indexProductoSuministrador.css"
+    },
+    {
       "Id": "C:\\Users\\gesel\\source\\repos\\ModularMonolithERP.Web\\ModularMonolithERP.Web\\wwwroot\\css\\indexTransaccion.css",
       "PackagePath": "staticwebassets\\css\\indexTransaccion.css"
     },

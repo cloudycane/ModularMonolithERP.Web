@@ -20,7 +20,13 @@ namespace ModularMonolithERP.Infrastructure.Repositorios
         
         public async Task<IEnumerable<ProductoSuministradorModel>> ObtenerListadoProductoSuministrador()
         {
-            return await _context.ProductosSuministradores.ToListAsync();
+            return await _context.ProductosSuministradores.Include(s => s.Suministrador).ToListAsync();
+        }
+
+        public async Task CrearAsync(ProductoSuministradorModel producto)
+        {
+            await _context.AddAsync(producto);
+            await _context.SaveChangesAsync();
         }
     
     }

@@ -71,7 +71,6 @@ namespace ModularMonolithERP.Web.Areas.Adquisicion.Controllers
                     MonedaPreferida = viewModel.MonedaPreferida,
                     Nombre = viewModel.Nombre,
                     PaisOrigen = viewModel.PaisOrigen,
-                    ProductoSuministradorId = (int)viewModel.ProductoSuministradorId,
                     TelefonoContacto = viewModel.TelefonoContacto,
                     TipoProveedor = viewModel.TipoProveedor
 

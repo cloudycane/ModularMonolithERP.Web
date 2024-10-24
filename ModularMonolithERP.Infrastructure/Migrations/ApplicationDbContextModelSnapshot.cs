@@ -42,7 +42,13 @@ namespace ModularMonolithERP.Infrastructure.Migrations
                     b.Property<string>("NombreProducto")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int>("SuministradorId")
+                        .HasColumnType("int");
+
                     b.HasKey("Id");
+
+                    b.HasIndex("SuministradorId")
+                        .IsUnique();
 
                     b.ToTable("ProductosSuministradores");
                 });
@@ -85,9 +91,6 @@ namespace ModularMonolithERP.Infrastructure.Migrations
                     b.Property<int>("PaisOrigen")
                         .HasColumnType("int");
 
-                    b.Property<int>("ProductoSuministradorId")
-                        .HasColumnType("int");
-
                     b.Property<string>("TelefonoContacto")
                         .HasColumnType("nvarchar(max)");
 
@@ -95,8 +98,6 @@ namespace ModularMonolithERP.Infrastructure.Migrations
                         .HasColumnType("int");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("ProductoSuministradorId");
 
                     b.ToTable("Suministradores");
                 });
@@ -130,14 +131,19 @@ namespace ModularMonolithERP.Infrastructure.Migrations
                     b.ToTable("Transacciones");
                 });
 
-            modelBuilder.Entity("ModularMonolithERP.Core.Entidades.SuministradorModel", b =>
+            modelBuilder.Entity("ModularMonolithERP.Core.Entidades.ProductoSuministradorModel", b =>
                 {
-                    b.HasOne("ModularMonolithERP.Core.Entidades.ProductoSuministradorModel", "ProductoSuministrador")
-                        .WithMany()
-                        .HasForeignKey("ProductoSuministradorId")
+                    b.HasOne("ModularMonolithERP.Core.Entidades.SuministradorModel", "Suministrador")
+                        .WithOne("ProductoSuministrador")
+                        .HasForeignKey("ModularMonolithERP.Core.Entidades.ProductoSuministradorModel", "SuministradorId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.Navigation("Suministrador");
+                });
+
+            modelBuilder.Entity("ModularMonolithERP.Core.Entidades.SuministradorModel", b =>
+                {
                     b.Navigation("ProductoSuministrador");
                 });
 #pragma warning restore 612, 618

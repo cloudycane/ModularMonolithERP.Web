@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -23,8 +24,6 @@ namespace ModularMonolithERP.Core.Entidades
         public MonedaPreferidaEnum MonedaPreferida { get; set; }
         public TipoProveedorEnum TipoProveedor { get; set; }
         public PaisOrigenEnum PaisOrigen { get; set; }
-        // nav property
-        public int ProductoSuministradorId { get; set; }
         public ProductoSuministradorModel ProductoSuministrador { get; set; }
     }
 }
