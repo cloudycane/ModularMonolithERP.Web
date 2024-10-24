@@ -12,12 +12,14 @@ builder.Services.AddRazorPages();
 // Add DbContext Service
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
 builder.Services.AddScoped<ProductoSuministradorGetQuery>();
 builder.Services.AddScoped<SuministradorGetQuery>();
 
 builder.Services.AddScoped<ITransaccionRepositorio, TransaccionRepositorio>();
 builder.Services.AddScoped<ISuministradorRepositorio, SuministradorRepositorio>();
 builder.Services.AddScoped<IProductoSuministradorRepositorio, ProductoSuministradorRepositorio>();
+builder.Services.AddScoped<IOrdenCarritoRepositorio, OrdenCarritoRepositorio>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

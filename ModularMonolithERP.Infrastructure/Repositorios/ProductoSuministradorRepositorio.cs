@@ -23,10 +23,21 @@ namespace ModularMonolithERP.Infrastructure.Repositorios
             return await _context.ProductosSuministradores.Include(s => s.Suministrador).ToListAsync();
         }
 
+        public async Task<ProductoSuministradorModel> ObtenerProductoSuministradorPorIdAsync(int id)
+        {
+            return await _context.Set<ProductoSuministradorModel>().FindAsync(id);
+        }
+        
+        
         public async Task CrearAsync(ProductoSuministradorModel producto)
         {
             await _context.AddAsync(producto);
             await _context.SaveChangesAsync();
+        }
+
+        public async Task<ProductoSuministradorModel> GetProductoAsync(int id)
+        {
+            return await _context.ProductosSuministradores.SingleOrDefaultAsync(p => p.Id == id);
         }
     
     }

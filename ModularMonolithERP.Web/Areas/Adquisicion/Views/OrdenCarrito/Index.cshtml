@@ -1,0 +1,31 @@
+﻿@model ListadoOrdenCarritoViewModel
+
+@{
+    
+}
+
+<link rel="stylesheet" href="~/css/indexOrdenCarrito.css" />
+
+<h1>Listado de Ordenes en el Carrito</h1>
+
+<div class="container">
+    <div id="cardsDiv" class="col-lg-12">
+       
+        @foreach(var productoEnCarrito in Model.OrdenCarritos)
+        {
+            <div class="col-lg-4 text-center" id="card">
+                <center>
+                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" style="width: 150px; height: 150px;" class="img-responsive" alt="Generic placeholder thumbnail">
+                </center>
+                @productoEnCarrito.ProductoSuministrador.NombreProducto
+                <strong>Cantidad:</strong> @productoEnCarrito.Cantidad
+                <p><strong>Coste Total:</strong> @productoEnCarrito.TotalCoste</p>
+
+                <a class="btn btn-primary">Comprar</a>
+                <a class="btn btn-danger">Eliminar</a>
+            
+            </div>
+        }
+
+    </div>
+</div>

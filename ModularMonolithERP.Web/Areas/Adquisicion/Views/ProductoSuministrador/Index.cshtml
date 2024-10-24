@@ -14,8 +14,11 @@
                 <center>
                     <img src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" style="width: 150px; height: 150px;" class="img-responsive" alt="Generic placeholder thumbnail">
                 </center>
-                <h4><strong>Descripción: </strong>@productos.DescripcionProducto | <strong>Coste: </strong>@productos.CosteProducto | <strong>Proveedor: </strong> @productos.Suministrador.Nombre</h4>
-               
+                <h4><strong>Descripción: </strong>@productos.DescripcionProducto | <strong>Coste: </strong>@productos.Suministrador.MonedaPreferida @productos.CosteProducto | <strong>Proveedor: </strong> @productos.Suministrador.Nombre</h4>
+                <div>
+                    @Html.ActionLink("Ordenar", "AñadirAlCarrito", "OrdenCarrito", new { productoId = productos.Id }, new { @class = "btn btn-primary" })
+                    <a class="btn btn-primary">Ver detalles</a>
+                </div>
             </div>
 
         }

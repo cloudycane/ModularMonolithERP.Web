@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "hXabLXldkJ3zu/lZhSu5Nm8ENELTFdMt5xf4wvmcuOU=",
+  "Hash": "1pOJJqKczFiT6SdGQj3l/FO2kDd8f6+Ur4jRowvQl0s=",
   "Source": "ModularMonolithERP.Web",
   "BasePath": "_content/ModularMonolithERP.Web",
   "Mode": "Default",
@@ -148,6 +148,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\indexCuentasPagar.css"
+    },
+    {
+      "Identity": "C:\\Users\\gesel\\source\\repos\\ModularMonolithERP.Web\\ModularMonolithERP.Web\\wwwroot\\css\\indexOrdenCarrito.css",
+      "SourceId": "ModularMonolithERP.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\gesel\\source\\repos\\ModularMonolithERP.Web\\ModularMonolithERP.Web\\wwwroot\\",
+      "BasePath": "_content/ModularMonolithERP.Web",
+      "RelativePath": "css/indexOrdenCarrito.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\indexOrdenCarrito.css"
     },
     {
       "Identity": "C:\\Users\\gesel\\source\\repos\\ModularMonolithERP.Web\\ModularMonolithERP.Web\\wwwroot\\css\\indexProductoSuministrador.css",

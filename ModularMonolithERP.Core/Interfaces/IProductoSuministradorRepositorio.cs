@@ -10,6 +10,8 @@ namespace ModularMonolithERP.Core.Interfaces
     public interface IProductoSuministradorRepositorio
     {
         Task CrearAsync(ProductoSuministradorModel producto);
+        Task<ProductoSuministradorModel> GetProductoAsync(int id);
         Task<IEnumerable<ProductoSuministradorModel>> ObtenerListadoProductoSuministrador();
+        Task<ProductoSuministradorModel> ObtenerProductoSuministradorPorIdAsync(int id);
     }
 }

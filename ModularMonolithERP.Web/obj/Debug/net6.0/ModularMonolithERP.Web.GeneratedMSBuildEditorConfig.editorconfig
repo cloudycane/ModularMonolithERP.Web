@@ -18,6 +18,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\gesel\source\repos\ModularMonolithERP.Web\ModularMonolithERP.Web
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/gesel/source/repos/ModularMonolithERP.Web/ModularMonolithERP.Web/Areas/Adquisicion/Views/OrdenCarrito/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRxdWlzaWNpb25cVmlld3NcT3JkZW5DYXJyaXRvXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/gesel/source/repos/ModularMonolithERP.Web/ModularMonolithERP.Web/Areas/Adquisicion/Views/PortalSuministrador/Crear.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRxdWlzaWNpb25cVmlld3NcUG9ydGFsU3VtaW5pc3RyYWRvclxDcmVhci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

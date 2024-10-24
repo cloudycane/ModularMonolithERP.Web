@@ -22,6 +22,33 @@ namespace ModularMonolithERP.Infrastructure.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
+            modelBuilder.Entity("ModularMonolithERP.Core.Entidades.OrdenCarritoModel", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<int>("Cantidad")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("FechaCreacion")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("ProductoSuministradorId")
+                        .HasColumnType("int");
+
+                    b.Property<decimal>("TotalCoste")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ProductoSuministradorId");
+
+                    b.ToTable("OrdenesCarritos");
+                });
+
             modelBuilder.Entity("ModularMonolithERP.Core.Entidades.ProductoSuministradorModel", b =>
                 {
                     b.Property<int>("Id")
@@ -129,6 +156,17 @@ namespace ModularMonolithERP.Infrastructure.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Transacciones");
+                });
+
+            modelBuilder.Entity("ModularMonolithERP.Core.Entidades.OrdenCarritoModel", b =>
+                {
+                    b.HasOne("ModularMonolithERP.Core.Entidades.ProductoSuministradorModel", "ProductoSuministrador")
+                        .WithMany()
+                        .HasForeignKey("ProductoSuministradorId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("ProductoSuministrador");
                 });
 
             modelBuilder.Entity("ModularMonolithERP.Core.Entidades.ProductoSuministradorModel", b =>
